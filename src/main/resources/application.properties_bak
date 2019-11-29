@@ -1,0 +1,7 @@
+spring.application.name=SpringKubeDemo
+
+spring.cloud.kubernetes.config.namespace=spring-kube
+#spring.cloud.kubernetes.config.enabled=false
+#spring.cloud.kubernetes.config.enableApi=false
+#spring.cloud.kubernetes.config.sources[0].namespace=spring-kube
+#spring.cloud.kubernetes.config.sources[0].name=hello

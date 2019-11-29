@@ -1,0 +1,11 @@
+spring:
+  cloud:
+    kubernetes:
+      config:
+        enabled: true
+        sources:
+          -  namespace: springkube-ns
+             name: spring-kube-map
+      reload:
+        enablde: true
+        mode: event
