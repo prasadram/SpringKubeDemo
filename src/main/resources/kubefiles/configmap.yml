@@ -1,0 +1,7 @@
+apiVersion: v1
+kind: ConfigMap
+metadata:
+        name: spring-kube-map
+        namespace: springkube-ns
+data:
+        message: Welcome To Updated Spring ConfigMap

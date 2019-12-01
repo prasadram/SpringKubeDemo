@@ -7,5 +7,5 @@ spring:
           -  namespace: springkube-ns
              name: spring-kube-map
       reload:
-        enablde: true
+        enabled: true
         mode: event

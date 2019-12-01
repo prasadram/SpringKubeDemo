@@ -1,0 +1,12 @@
+apiVersion: v1
+kind: Pod
+metadata:
+        name: springkubedemo
+        labels:
+                app: springkubedemo
+spec:
+        containers:
+                - name: springkubedemo-ctr
+                  image: springkubedemo:1.0
+                  imagePullPolicy: IfNotPresent
+        serviceAccountName: springkube-sa         
